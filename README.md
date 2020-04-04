@@ -3,7 +3,6 @@
  # 
  
  ### Architecture
-
 ![alt text](https://raw.githubusercontent.com/abdev2019/ProductApi/master/architecture.PNG)
 
 The architecture compose from five layers:
@@ -25,8 +24,10 @@ Sent a status code 404 [NOT_FOUND]
     -	`OnlyImagesAllowedException` : handled when the file uploaded is not an image, 
 Sent a status code 406 [NOT_ACCEPTABLE]
     - `ValidationExceptionHandler` : handled when activating the validation of entities with @Valid anotation and sent  status code 400 [BAD_REQUEST]
- #
- #
+    <br/>
+### Classes diagram
+![alt text](https://raw.githubusercontent.com/abdev2019/ProductApi/master/diagramClasses.PNG)
+  
 <br/><br/><br/>
  
  ### This API provide many endpoints to consume data:
