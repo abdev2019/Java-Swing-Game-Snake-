@@ -1,7 +1,6 @@
 # RESTfull Product Api
  #
- #
- #
+ # 
  
  ### Architecture
 
@@ -47,9 +46,7 @@ Example:
    "price" : 5000.00
 } 
 ```
-\
-\
-\
+<br/><br/><br/>
 
 ##### Updating product 
 #
@@ -66,9 +63,7 @@ Example:
 } 
 ```
   
- \
- \
- \
+<br/><br/><br/>
   
 ##### Deleting a product 
 #
@@ -79,10 +74,7 @@ DELETE  /products/{idProduct}
 If the product doesn’t exist the response will contains a notification message
 
    
- \
- \
- \
- 
+<br/><br/><br/>
 ##### Fetch products 
 #
 ```sh
@@ -99,9 +91,7 @@ Retrieving response as pageable type by adding request params size&page&sort
 •	`GET /products?title=xxxx&subtitle=yyyy&description=zzzz&page=0&size=5&sort=asc`
 
 
- \
- \
- \
+<br/><br/><br/>
  
 ##### Fetch special product 
 #
@@ -116,9 +106,7 @@ We can fetch only specific fields of product by adding filterField param with va
 •	Fetch title and images : `GET /products/{id}?filterFields=title,ratings`
 
 
- \
- \
- \
+<br/><br/><br/>
  
 ##### Adding rating to product  
 #
@@ -129,9 +117,7 @@ POST  /ratings?idProduct=xxx
 The response will be a JSON rating data or can be a message to notify that the related product does not exist
 
 
- \
- \
- \
+<br/><br/><br/>
  
 ##### Removing rating 
 #
@@ -141,9 +127,7 @@ DELETE  /ratings/{id}
 The response will be true on success or a message to notify that the rating does not exist
 
 
- \
- \
- \
+<br/><br/><br/>
  
 ##### Uploading and affect image to product 
 #
@@ -155,9 +139,7 @@ POST Body should has content-type as multipart/form-data and image as field name
 The response, on success, will be a JSON containing information about the image or a message to notify that the product does not exist, or that the type of file should be Image
 
 
- \
- \
- \
+<br/><br/><br/>
  
 ##### Removing image 
 #
@@ -168,9 +150,7 @@ DELETE  /images/{id}
 The response will be true on success or a message to notify that the image does not exist
 
 
- \
- \
- \
+<br/><br/><br/>
  
 ##### Loading image resource 
 #
