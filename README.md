@@ -55,7 +55,7 @@ Example:
 PUT or PATCH /products/{idProduct}
 ``` 
 
-POST Body can contains only the field needed to update
+POST Body can contains only the fields needed to update
 Example:
 ```json
 { 
