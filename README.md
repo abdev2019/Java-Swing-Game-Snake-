@@ -2,6 +2,9 @@
  #
  #
  #
+ 
+![alt text](https://raw.githubusercontent.com/abdev2019/ProductApi/master/architecture.PNG)
+
 The architecture compose from five layers:
 
 -   Entities layer contains all JPA entities
