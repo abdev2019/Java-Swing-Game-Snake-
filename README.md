@@ -28,9 +28,7 @@ Sent a status code 406 [NOT_ACCEPTABLE]
     - `ValidationExceptionHandler` : handled when activating the validation of entities with @Valid anotation and sent  status code 400 [BAD_REQUEST]
  #
  #
- \ 
- \ 
- \ 
+<br/><br/><br/>
  
  ### This API provide many endpoints to consume data:
  
