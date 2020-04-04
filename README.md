@@ -31,6 +31,7 @@ Sent a status code 406 [NOT_ACCEPTABLE]
  \
  \
  \
+ 
  ### This API provide many endpoints to consume data:
  
 ##### Adding new Product
@@ -48,6 +49,9 @@ Example:
    "price" : 5000.00
 } 
 ```
+ \
+ \
+ \
  
 ##### Updating product 
 #
@@ -63,7 +67,11 @@ Example:
     "price" : 6000.00
 } 
 ```
-   
+  
+ \
+ \
+ \
+  
 ##### Deleting a product 
 #
 ```sh
@@ -73,6 +81,10 @@ DELETE  /products/{idProduct}
 If the product doesn’t exist the response will contains a notification message
 
    
+ \
+ \
+ \
+ 
 ##### Fetch products 
 #
 ```sh
@@ -89,6 +101,10 @@ Retrieving response as pageable type by adding request params size&page&sort
 •	`GET /products?title=xxxx&subtitle=yyyy&description=zzzz&page=0&size=5&sort=asc`
 
 
+ \
+ \
+ \
+ 
 ##### Fetch special product 
 #
 ```sh
@@ -102,6 +118,10 @@ We can fetch only specific fields of product by adding filterField param with va
 •	Fetch title and images : `GET /products/{id}?filterFields=title,ratings`
 
 
+ \
+ \
+ \
+ 
 ##### Adding rating to product  
 #
 ```sh
@@ -111,6 +131,10 @@ POST  /ratings?idProduct=xxx
 The response will be a JSON rating data or can be a message to notify that the related product does not exist
 
 
+ \
+ \
+ \
+ 
 ##### Removing rating 
 #
 ```sh
@@ -119,6 +143,10 @@ DELETE  /ratings/{id}
 The response will be true on success or a message to notify that the rating does not exist
 
 
+ \
+ \
+ \
+ 
 ##### Uploading and affect image to product 
 #
 ```sh
@@ -129,6 +157,10 @@ POST Body should has content-type as multipart/form-data and image as field name
 The response, on success, will be a JSON containing information about the image or a message to notify that the product does not exist, or that the type of file should be Image
 
 
+ \
+ \
+ \
+ 
 ##### Removing image 
 #
 ```sh
@@ -138,6 +170,10 @@ DELETE  /images/{id}
 The response will be true on success or a message to notify that the image does not exist
 
 
+ \
+ \
+ \
+ 
 ##### Loading image resource 
 #
 ```sh
