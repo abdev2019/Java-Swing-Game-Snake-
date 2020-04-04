@@ -49,10 +49,10 @@ Example:
    "price" : 5000.00
 } 
 ```
- \
- \
- \
- 
+\
+\
+\
+
 ##### Updating product 
 #
 ```sh
