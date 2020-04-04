@@ -84,12 +84,12 @@ GET  /products
 
 The response always give at least empty array
 We can fetch all products by keywords:
-•	By title : `GET  /products?title=xxxx `
-•	By description : `GET  /products?description=xxxx`
-•	By all keywords : `GET  /products?title=xxxx&subtitle=yyyy&description=zzzz`
-Retrieving response as pageable type by adding request params size&page&sort
-•	`GET /products?title=xxxx&subtitle=yyyy&description=zzzz`
-•	`GET /products?title=xxxx&subtitle=yyyy&description=zzzz&page=0&size=5&sort=asc`
+•	By title : `GET  /products?title=xxxx `<br/>
+•	By description : `GET  /products?description=xxxx`<br/>
+•	By all keywords : `GET  /products?title=xxxx&subtitle=yyyy&description=zzzz`<br/>
+Retrieving response as pageable type by adding request params size&page&sort<br/>
+•	`GET /products?title=xxxx&subtitle=yyyy&description=zzzz`<br/>
+•	`GET /products?title=xxxx&subtitle=yyyy&description=zzzz&page=0&size=5&sort=asc`<br/>
 
 
 <br/><br/><br/>
@@ -101,9 +101,9 @@ GET  /products/{id}
 ```  
 
 The response will be a JSON product object
-We can fetch only specific fields of product by adding filterField param with values separated by comma: 
-•	Fetch only ratings : `GET /products/{id}?filterFields=ratings`
-•	Fetch only images : `GET /products/{id}?filterFields=images`
+We can fetch only specific fields of product by adding filterField param with values separated by comma: <br/>
+•	Fetch only ratings : `GET /products/{id}?filterFields=ratings`<br/>
+•	Fetch only images : `GET /products/{id}?filterFields=images`<br/>
 •	Fetch title and images : `GET /products/{id}?filterFields=title,ratings`
 
 
